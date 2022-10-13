@@ -30,4 +30,4 @@ double min = arrayNumbers[0];
 Console.WriteLine("]");
   double decision = max - min;
 
-  Console.WriteLine($"Разница между между максимальным ({max}) и минимальным({min}) элементами: {decision}");
+  Console.WriteLine($"Разница между максимальным ({max}) и минимальным({min}) элементами: {decision}");

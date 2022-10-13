@@ -26,10 +26,10 @@ void CopyArray(int[] arrayToCopy, int[] arrayToFill)
 }
 
 int arraySize = 0;
-arraySize = new Random().Next(5, 20);
+arraySize = new Random().Next(5, 100);
 int[] firstArray = new int[arraySize];
 int[] secondArray = new int[arraySize];
-FillArray(firstArray, 20);
+FillArray(firstArray, 100);
 CopyArray(firstArray, secondArray);
 Console.Clear();
 
